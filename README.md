@@ -32,19 +32,33 @@ The assistant reads Word documents, stores them in a local SQLite database using
 ## Project Structure
 
 ```
-LocalRAGAssistant/
+YerelRAGAsistani/
+├── codes/
+│   ├── main.py
+│   ├── config.py
+│   ├── llm.py
+│   ├── retriever.py
+│   ├── database.py
+│   ├── ingestion.py
+│   └── test.py
+|
 │
-├── main.py
-├── ingest.py
-├── retriever.py
-├── llm.py
-├── database.py
-├── config.py
-├── tests.py
-│
+├── db/
+│   └── rag.db
+|
 ├── resources/
-├── rag.db
-└── README.md
+│   ├── document1.docx
+│   ├── document2.docx
+│   └── ...
+|
+├── reports/
+│   ├── Project_Report.docx
+│   ├── Evaluation_Report.docx
+│   └── System_Test_Report.docx
+|
+├── requirements.txt
+├── README.md
+└── .gitignore
 ```
 
 ---
