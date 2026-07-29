@@ -1,0 +1,106 @@
+============================================================
+RAG TEST RESULTS
+============================================================
+Date: 2026-07-30 00:06:06.920455
+
+TEST 1
+Question : What is RAG?
+Expected : The assistant should answer using the documents.
+Answer   : Retrieval-Augmented Generation (RAG) is an artificial intelligence architecture that combines information retrieval with language generation. It allows large language models to retrieve relevant information before answering, thereby providing more accurate and up-to-date responses. This approach reduces the risk of hallucinations by enabling language models to access new information and organization-specific documents. RAG also enhances transparency by providing clear instructions and ensuring that users receive accurate and reliable information. As a result, RAG has become one of the most widely adopted architectures for enterprise AI applications.
+------------------------------------------------------------
+TEST 2
+Question : What is Foundry Local?
+Expected : The assistant should answer using the documents.
+Answer   : Foundry Local is Microsoft's local AI runtime that enables developers to download, manage, and execute artificial intelligence models directly on their personal computers.
+------------------------------------------------------------
+TEST 3
+Question : What are the key features of SQLite?
+Expected : The assistant should answer using the documents.
+Answer   : SQLite provides several key features that make it suitable for local applications. It offers a simple alternative by storing all information inside a single file, making databases easy to copy, move, and maintain. Additionally, SQLite's simplicity and reliability have made it a popular choice among various types of applications, including desktop software, mobile apps, embedded systems, and local AI projects.
+------------------------------------------------------------
+TEST 4
+Question : What are the differences between Cloud models and Local models?
+Expected : The assistant should answer using the documents.
+Answer   : Cloud models run on powerful servers maintained by AI providers, while Local models run entirely on a user's own device.
+------------------------------------------------------------
+TEST 5
+Question : How can we avoid Chunk Overlap?
+Expected : The assistant should answer using the documents.
+Answer   : Chunk Overlap means that neighboring chunks share part of their content.
+------------------------------------------------------------
+TEST 6
+Question : Why do we use SQLite in this project?
+Expected : The assistant should answer using the documents.
+Answer   : SQLite is used in this project because many modern applications need a reliable way to store data locally.
+------------------------------------------------------------
+TEST 7
+Question : What are the best practices with Local LLMs to achieve good performance?
+Expected : The assistant should answer using the documents.
+Answer   : Best Practices
+To achieve good performance with Local LLMs, several recommended best practices should be followed:
+1. Select a model appropriate for the available hardware.
+2. Use quantized models when possible.
+3. Keep model files updated.
+4. Monitor memory usage during inference.
+5. Combine Local LLMs with Retrieval-Augmented Generation for better accuracy.
+6. Store documents and embeddings locally to maintain privacy.
+7. Ensure proper integration with other components like Retrieval-Augmented Generation and Microsoft Foundry Local.
+8. Consider hardware acceleration options (GPU/NPU).
+9. Regularly monitor and optimize memory usage and system requirements.
+10. Implement robust error handling and fallback mechanisms.
+11. Evaluate and adjust parameters based on performance metrics and constraints.
+12. Continuously test and iterate based on feedback and new findings.
+13. Stay up-to-date with advancements in AI technology and its integration into Local LLMs.
+14. Maintain a comprehensive documentation and reference guide for Local LLMs.
+15. Ensure compliance with relevant regulations and standards related to AI and Data Privacy.
+------------------------------------------------------------
+TEST 8
+Question : How does Foundry Local work?
+Expected : The assistant should answer using the documents.
+Answer   : Foundry Local works by providing a lightweight local runtime that enables Large Language Models to execute on the user's device. This allows developers to build AI-powered applications that can continue to function even when they are offline or under network constraints.
+------------------------------------------------------------
+TEST 9
+Question : Why is Prompt Engineering important?
+Expected : The assistant should answer using the documents.
+Answer   : Prompt Engineering is crucial because it ensures that large language models can generate accurate, consistent, and useful responses by providing clear, specific instructions, sufficient context, and well-defined expectations. This approach helps in guiding the model towards the desired outcome, thereby improving its performance and reliability.
+------------------------------------------------------------
+TEST 10
+Question : What are the advantages of Embeddings and Vector Search?
+Expected : The assistant should answer using the documents.
+Answer   : There are several advantages of embeddings and vector search compared to traditional keyword search:
+
+1. **Semantic Understanding**: The system understands the meaning of text instead of matching exact words, making it more accurate in understanding the intent behind the query or question being asked.
+
+2. **Improved Retrieval Accuracy**: Relevant documents can be found even when different vocabulary is used, allowing users to get better matches based on the actual content of the documents they are searching.
+
+3. **Natural Language Queries**: Users can ask questions naturally without needing specific keywords, enhancing the efficiency and effectiveness of natural language interactions.
+
+4. **Scalable Architecture**: With the help of specialized vector databases, developers can store and manage large amounts of data effectively, making it easier to scale up and down depending on the needs of different environments and scales.
+
+By leveraging embeddings and vector search, AI systems can gain deeper insights from vast amounts of textual data, leading to more precise and efficient solutions to complex problems.
+------------------------------------------------------------
+TEST 11
+Question : Why is Cosine Similarity Used?
+Expected : The assistant should answer using the documents.
+Answer   : Cosine Similarity is used to compare and rank related documents based on their similarities in terms of content and relevance. It helps in generating more accurate and contextually appropriate responses by analyzing the relationship between different pieces of text.
+------------------------------------------------------------
+TEST 12
+Question : How much water should an adult consume during a day?
+Expected : The assistant should return the fallback message.
+Answer   : I couldn't find this information in the provided documents.
+------------------------------------------------------------
+TEST 13
+Question : What are the biggest Tech Companies around the world?
+Expected : The assistant should return the fallback message.
+Answer   : I couldn't find this information in the provided documents.
+------------------------------------------------------------
+TEST 14
+Question : Who is Barbaros Günay?
+Expected : The assistant should return the fallback message.
+Answer   : I couldn't find this information in the provided documents.
+------------------------------------------------------------
+TEST 15
+Question : When was the last Championship won by Besiktas?
+Expected : The assistant should return the fallback message.
+Answer   : I couldn't find this information in the provided documents.
+------------------------------------------------------------
